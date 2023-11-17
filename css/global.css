@@ -60,7 +60,7 @@ hr.dash {
 
 .title {
 	color: #cff;
-	font-size: 1.25em;
+	font-size: 1.42em;
 }
 .illustration {
 	color: #ffffff;
@@ -97,23 +97,17 @@ hr.dash {
 		column-count: 1;
 	}
 }
-.gallery p {
-	color: #aaffaa;
-	font-family: 'Roboto Mono', monospace, courier;
-	font-size: 1.2em;
-	text-align: center;
-}
 .gallery img {
 	position: relative;
 	padding: 5px;
 	margin-bottom: 2px;
 	transition: 0.4s;
-	width: 42%;
+	width: 24%;
 	height: auto;
-	max-width: 666px;
+	max-width: 420px;
 }
 .gallery img:hover {
-	filter: invert(95%);
+	filter: blur(1px) drop-shadow(2px 2px 3px #131313);
 }
 
 footer {
